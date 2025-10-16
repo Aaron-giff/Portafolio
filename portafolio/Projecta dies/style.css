@@ -1,0 +1,698 @@
+body {
+    background-image: url(https://st4.depositphotos.com/12371120/23393/i/950/depositphotos_233931982-stock-illustration-newspaper-old-unreadable-text-vintage.jpg);
+    cursor: grab
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 5px;
+
+
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+    align-items: center;
+
+
+}
+
+.capcalera {
+    border: 2px solid black;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#subtitol {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -80px
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+
+h3 {
+    margin-top: 28px;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+
+
+}
+
+#gifnavv {
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+.navgif {
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(gif/TU52.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: 1s;
+}
+
+
+.navgif:hover {
+    scale: 140%;
+    transition: 1s;
+    box-shadow: 10px 10px 10px black;
+    filter: grayscale(0%);
+    transition: 1s;
+
+}
+
+#Personatgesfrikisnav {
+    background-image: url(gif/spidermanbuscador.gif);
+    background-size: 140%;
+
+
+
+
+}
+
+#inventsnav {
+    background-image: url(gif/1fUE.gif);
+
+
+
+}
+
+
+#monstresnav {
+
+    background-image: url(gif/2nQk.gif);
+
+
+}
+
+
+#contactenav {
+    background-image: url(gif/contactanosgiff.gif);
+
+
+
+}
+
+
+#articleprincipal {
+    font-size: 40px;
+
+}
+
+#subtitolarticleprincipal {
+
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+#contenedornoticia {
+
+    display: flex;
+
+
+
+
+}
+
+#iafoto {
+    background-image: url(fotos/iafoto.avif);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px;
+    height: 550px;
+    width: 700px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border: 2px solid black;
+
+
+    transition: 1s;
+}
+
+#iafoto video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+    /* Evita que bloquee el hover */
+
+}
+
+
+
+#iafoto:hover video {
+    opacity: 1;
+    transform: scale(1);
+    scale: 110%;
+    transition: 1s;
+    box-shadow: 80px 80px 105px black;
+    border: 2px solid black;
+    width: 120%;
+}
+
+
+
+
+#noticiatext {
+    width: 60%;
+    font-size: 22px;
+    margin-left: 25px;
+    font-family: "Playfair Display", serif;
+    line-height: 1.9rem;
+    margin-top: -5px;
+    margin-right: 15px;
+
+}
+
+
+#personatgefrikidelanytitol {
+
+    font-size: 40px;
+    margin-bottom: -5px;
+    margin-left: 120px;
+
+
+
+}
+
+#nomspider {
+    margin-bottom: -25px;
+    margin-left: 250px;
+
+}
+
+#subtitolspiderman {
+
+    margin-left: 180px;
+    font-size: 30px;
+
+
+}
+
+#textspiderman {
+    width: 70%;
+    font-size: 23px;
+    margin-left: 25px;
+    font-family: "Playfair Display", serif;
+    line-height: 1.9;
+    padding: 25px;
+    column-count: 3;
+    column-gap: 3rem;
+    text-align: justify;
+    hyphens: auto;
+
+
+
+}
+
+
+#divspiderman {
+
+    display: flex;
+
+
+
+}
+
+
+
+#spidermanfoto {
+    background-image: url(fotos/spidermanfoto.avif);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px;
+    height: 650px;
+    width: 700px;
+    background-color: aliceblue;
+    margin-top: 60px;
+    border: 2px solid black;
+
+
+    transition: 1s;
+}
+
+#spidermanfoto video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+    /* Evita que bloquee el hover */
+
+}
+
+
+
+#spidermanfoto:hover video {
+    opacity: 1;
+    transform: scale(1);
+    scale: 110%;
+    transition: 1s;
+    box-shadow: 80px 80px 105px black;
+    border: 2px solid black;
+    width: 120%;
+    transition: 1s;
+}
+
+#spidermanpj {
+    background-image: url(personatgesfrikis/Spiderman.gif);
+    background-size: 205%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+
+    border: 1px solid black;
+    transition: 1s;
+
+}
+
+#spidermanpj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+#caracspiderman {
+
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo semi-transparente */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+
+
+#caracspiderman1 {
+
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo semi-transparente */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+
+
+
+#caracspiderman:hover {
+
+    opacity: 1;
+
+}
+
+
+
+#caracspiderman1:hover {
+
+    opacity: 1;
+    box-shadow: 5px 5px 25px black;
+
+}
+
+#logospiderman:hover {
+
+    opacity: 1;
+
+}
+
+#logomarvel {
+    height: 200px;
+    width: 400px;
+    margin-left: 730px;
+    margin-top: -50px;
+
+
+}
+
+
+
+#ironmanpj {
+    background-image: url(personatgesfrikis/ironmangiff\ \(1\).gif);
+    background-size: 205%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+    margin-left: 80px;
+    border: 1px solid black;
+    transition: 1s;
+
+}
+
+#ironmanpj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+#hulkpj {
+    background-image: url(personatgesfrikis/hulckgif\ \(1\).gif);
+    background-size: 235%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+    margin-left: 80px;
+    border: 1px solid black;
+    transition: 1s;
+
+
+}
+
+
+#hulkpj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+#containerpj {
+    display: flex;
+    justify-content: space-around
+}
+
+#deadpoolpj {
+    background-image: url(personatgesfrikis/deadpool\ gif\ \(1\).gif);
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+
+    border: 1px solid black;
+    transition: 1s;
+
+
+
+
+}
+
+
+#deadpoolpj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+
+
+#thorpj {
+    background-image: url(personatgesfrikis/thorgif\ \(1\).gif);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+
+    border: 1px solid black;
+    transition: 1s;
+
+
+
+
+}
+
+
+#thorpj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+
+#capitanamericapj {
+    background-image: url(personatgesfrikis/capitanamericagif\ \(1\).gif);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 400px;
+
+    border: 1px solid black;
+    transition: 1s;
+
+
+
+
+}
+
+
+#capitanamericapj:hover {
+    scale: 130%;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+#tituloinvents {
+
+    font-size: 40px;
+    margin-left: 80px;
+
+}
+
+
+#containerinv {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#textinvent {
+    width: 50%;
+    font-size: 25px;
+    margin-left: 480px;
+}
+
+#inventspiderman {
+    height: 400px;
+    width: 400px;
+    background-image: url(inventspiderman/foto\ principal.png);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin-left: 740px;
+
+
+}
+
+
+#parte1 {
+    height: 200px;
+    width: 200px;
+    background-image: url(inventspiderman/parte1.png);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#parte2 {
+    height: 200px;
+    width: 200px;
+    background-image: url(inventspiderman/parte\ 2.png);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+#parte3 {
+    height: 200px;
+    width: 200px;
+    background-image: url(inventspiderman/parte\ 3.png);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+
+
+#parte4 {
+    height: 200px;
+    width: 200px;
+    background-image: url(inventspiderman/parte\ 4.png);
+    background-size: 190%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#containerpartes {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo semi-transparente */
+    color: white;
+
+
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    transition: 1s;
+
+}
+
+#containerpartes:hover {
+
+    scale: 110%;
+    opacity: 1;
+
+
+    transition: 1s;
+
+}
+
+#monstruostitulo {
+
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+#monstruomarvel {
+    height: 700px;
+    width: 500px;
+    background-image: url(fotos/mostruo\ marvel.webp);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin-left: 740px;
+
+
+}
+
+
+#interiormonstruo {
+    overflow: visible;
+    opacity: 0;
+    height: 750px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.541);
+    /* Fondo semi-transparente */
+    background-image: url(fotos/quitar_fondo_monstruo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+transition: 1s;
+
+
+
+}
+
+#interiormonstruo:hover {
+    overflow: visible;
+    opacity: 1;
+    height: 750px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.39);
+    /* Fondo semi-transparente */
+    background-image: url(fotos/quitar_fondo_monstruo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    transition: 1s;
+
+
+
+}
+
+#textomonstruo{
+font-size: 20px;
+width: 40%;
+
+
+
+}
+a{
+
+    text-decoration: none;
+}
